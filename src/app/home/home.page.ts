@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {  NavController } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -6,5 +7,15 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  titulo_vista_uno: String = "Vista 1";
 
+  constructor(
+    public navctr: NavController
+  ){
+
+  }
+
+  goToVista1(){
+    this.navctr.navigateForward('/vista1')
+  }
 }

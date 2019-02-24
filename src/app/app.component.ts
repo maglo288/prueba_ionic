@@ -19,6 +19,11 @@ export class AppComponent {
       title: 'List',
       url: '/list',
       icon: 'list'
+    },
+    {
+      title: 'Vista1',
+      url: '/vista1',
+      icon: 'add-circle'
     }
   ];
 

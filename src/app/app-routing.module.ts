@@ -14,7 +14,8 @@ const routes: Routes = [
   {
     path: 'list',
     loadChildren: './list/list.module#ListPageModule'
-  }
+  },  { path: 'vista1', loadChildren: './vista1/vista1.module#Vista1PageModule' }
+
 ];
 
 @NgModule({
